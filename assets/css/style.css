@@ -77,8 +77,6 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: #f5f5f5;
-  border: 1px solid #f5f5f5;
   border-radius: 5px;
   color: #000;
   cursor: pointer;
@@ -87,6 +85,28 @@ body {
   padding: 0.5rem 1rem;
   transition: all 0.3s ease;
   text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #CBF3F0;
+  border: 1px solid #CBF3F0;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #FFBF69;
+  border: 1px solid #FFBF69;
+}
+
+.btn-secondary:hover {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
 }
 
 /* Navbar */
@@ -204,6 +224,25 @@ nav ul li a:hover {
 #about {
   text-align: center;
   padding: 100px;
+}
+
+
+/* Product */
+#product {
+  text-align: center;
+  background-color: #CBF3F0;
+  padding: 50px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 80px;
+  justify-content: space-around;
+}
+
+.product img {
+  width: 150px;
 }
 
 
