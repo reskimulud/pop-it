@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -111,7 +112,21 @@ nav ul li a:hover {
 /* Small */
 @media screen and (max-width: 576px) {
   nav ul {
-    display: none;
+    position: absolute;
+    background-color: #FFBF69;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: all 1s ease;
+    z-index: -1;
+  }
+
+  nav ul.slide {
+    transform: translateX(0);
   }
 
   .menu-toggle {
