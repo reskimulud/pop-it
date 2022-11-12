@@ -259,7 +259,7 @@ nav ul li a:hover {
   }
 
   #jumbotron {
-    padding: 0 5%;
+    padding: 50px 5%;
   }
 
   #jumbotron h1 {
@@ -303,5 +303,14 @@ nav ul li a:hover {
 
   #jumbotron div {
     text-align: center;
+  }
+
+  .product-container {
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+
+  .product {
+    margin-bottom: 50px;
   }
 }
